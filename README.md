@@ -124,7 +124,7 @@ Provides contact information for the VP Librarian and Office Manager responsible
 ## Website Structure
 
 ```text
-WUSC-Winter-Coat-Drive
+WUSC Winter Coat Drive
 │
 ├── index.html
 ├── about.html
