@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Donation Form</title>
+</head>
+
+<body>
+<header>
+<div class="header">
+<div class="header-right">
+    <h1> Donation Form</h1>
+    
+    <nav class="navbar">
+      <ul class="nav-links">   
+        <li><a href="index.html">Home</a> </li> 
+        <li><a href="about.html">About WUSC McGill</a> </li> 
+        <li><a href="guidelines.html">Donation Guidelines</a> </li> 
+        <li><a href="donate.html" class="active"> Donation Form</a> </li> 
+        <li><a href="contact.html">Contact</a> </li>
+      </ul>
+   </nav>
+</div>
+</div>
+</header>
+
+<main>
+    <form>
+        <h4>Enter your information below:</h4>
+         <label for="name">Full Name:</label>
+        <input 
+        type="text" 
+        id="name" 
+        name="name" 
+        placeholder="Enter your name"
+        required>  
+
+        <label for="email">Email Address:</label>
+        <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        placeholder="Enter your email address"
+        required>  
+
+         <label for="phone">Phone Number:</label>
+        <input 
+        type="tel" 
+        id="phone" 
+        name="phone" 
+        placeholder="514-356-0000">  
+
+        
+        <div class="itemDonations">
+        <label for="donationItems">Items to Donate:</label>
+        <p>Please provide a brief description of the items you wish to donate...</p>
+        
+        <textarea
+        id="donationItems" 
+        name="donationItems" 
+        rows="5"
+        cols="50"
+        placeholder="Example: Some winter clothes,boots,rice cooker..."></textarea>  
+       </div>
+
+
+    <div class="itemCondition">
+    <label for="itemConditions"> Condition of the items:</label>
+    <textarea 
+        id="itemConditions" 
+        name="itemConditions" 
+        rows="5"
+        cols="30"
+        placeholder="New, used like-new..."></textarea>
+        </div>
+
+
+        <div class="deliverMethods">
+        <p>Select your delivery method:</p>
+
+        <label>Pick Up Request</label>
+        <input type="radio" name="deliveryMethod" value="pick up"> 
+
+        <label>Drop off</label>
+        <input type="radio" name="deliveryMethod" value="drop off"> 
+
+        <label>Other</label>
+        <input type="radio" name="deliveryMethod" value="other" required> 
+        </div>
+
+        <label for="notes"><b>Additional notes</b></label>
+        <textarea 
+        id="notes"
+        name="notes"
+        placeholder="Additional information about your donation, pick up location or delivery... "></textarea> 
+
+    <button type="submit">
+        Submit Donation Form
+    </button>
+
+  
+    </form>
+</main>
+
+
+
+<footer>
+   <div class="footer-links">
+   <a href="index.html">Home</a>
+   <a href="about.html">About</a>
+      <a href="guidelines.html">Donation Guidelines</a> 
+   <a href="contact.html">Contacts</a> 
+   </div>
+
+<div class="copyrights">
+   <p> 
+    <small>
+      <em>
+      &copy; 2026 WUSC McGill.
+      </em>
+      </small>
+   </p>
+    
+   <p>
+      <small>
+    <em>
+    This website was created as a student project to support WUSC McGill's Winter Coat Project.
+    </em>
+    </small>
+   </p>
+</div>
+
+</footer>
+</body>
+</html>
