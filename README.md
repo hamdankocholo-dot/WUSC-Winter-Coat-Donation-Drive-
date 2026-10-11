@@ -113,8 +113,11 @@ Provides contact information for the VP Librarian and Office Manager responsible
 
 ### Version Control
 
-- Git (planned)
-- GitHub (planned)
+- Git 
+- GitHub
+
+###hosting 
+- Github Repository
 
 ---
 
