@@ -1,8 +1,10 @@
 # WUSC McGill Winter Coat Donation Drive
+- live site: https://hamdankocholo-dot.github.io/WUSC-Winter-Coat-Donation-Drive-/
 
 ## Motivation
 
-This project was inspired by the need for a centralized platform for WUSC McGill donation initiatives. Because student executive positions change regularly, donors may not always know who to contact regarding donations. This website aims to provide a consistent source of information, donation guidelines, and communication for community members who wish to support refugee students.
+The project was created to address a recurring communication challenge within WUSC McGill. Due to annual leadership transition, donors often continued contacting former student executives when attempting to contribute clothing, school supplies, and household items for incoming refugee students.    
+The website provides a centralized and publicly accessible platform where donors can get current information and connect with the appropriate representatives, improving continuity and accessibility for future donation campaigns.
 
 ---
 
@@ -25,7 +27,7 @@ However:
 - Student leadership positions change regularly.
 - Donors may not know who currently coordinates donations.
 - Information about accepted items may not be easily accessible.
-- Communication often depends on individual contacts.
+- Communication often depends on individual contacts since the email was not know by many people if members find a donor, they first have to look for the representative through their personal contact and sometimes their communication continued through that phone number.
 
 This project provides a centralized website that helps address these challenges by offering consistent information and contact pathways.
 
@@ -41,6 +43,7 @@ The goals of this project are to:
 - Help donors identify accepted items.
 - Connect donors with the appropriate WUSC representatives.
 - Improve continuity between changing executive teams.
+- Make the path to reach the appropriate representative public 
 
 ---
 
@@ -120,6 +123,13 @@ Provides contact information for the VP Librarian and Office Manager responsible
 - Github Repository
 
 ---
+
+##Future Improvement
+- Add JavaScript form validation
+- Store donor information in a database
+- Send automated email notifications
+- Create an administrator dashboard
+- Improve accessibility features
 
 ## Website Structure
 
